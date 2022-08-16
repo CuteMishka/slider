@@ -6,13 +6,13 @@
 	<title>Слайдер</title>
 	<style>
 		.lenta{
+			margin: 0;
 			position: absolute;
 			left: 100px;
 		}
-		.slider_img{
+		img{
 			width: 100px;
 			height: 100px;
-			margin: 0;
 		}
 		.tv{
 			width: 100px;
@@ -22,25 +22,13 @@
 	</style>
 </head>
 <body>
-	<div class="tv">
-	  <div class="lenta">
-	    <div class="slider_img_wrapper">
-	      <div class="slider_img">
-	      	<img src="josuke.jfif">
-	      </div>
-	      <div class="slider_img">
-	      	<img src="kira.jfif">
-	      </div>
-	      <div class="slider_img">
-	      	<img src="kakoyin.jfif">
-	      </div>
-	      <div class="slider_img">
-	      	<img src="mista.jfif">
-	      </div>
-	    </div>
-  	</div>
-  <button class="slider_left" data-slide="prev"></button>
-  <button class="slider__right" data-slide="next"></button>
-</div>
+	<div class="tv">	
+		<div class="lenta">
+			<img src="josuke.jfif">
+			<img src="kira.jfif">
+			<img src="mista.jfif">
+			<img src="kakoyin.jfif">
+		</div>
+	</div>
 </body>
 </html>
