@@ -1,5 +1,4 @@
-#Изменение значения left
-var size = documet.getElementById('lenta')
+var size = document.getElementById('lenta')
 function plus() {
-	lenta.style.left = -100 + 'px'
+	lenta.style.left = size + 'px'
 }
