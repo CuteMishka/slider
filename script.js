@@ -5,3 +5,9 @@ function plus() {
 	lenta.style.left = decrease + 'px'
 	if (decrease < -299) {decrease=100}
 }
+let increase = 100
+function prev(){
+	increase = 100 + increase
+	lenta.style.left = increase + 'px'
+	if (increase >= 0) {increase=-400}
+}
