@@ -1,5 +1,6 @@
 var lenta = document.getElementById('lenta')
-lenta = 0
+let decrease = -100
 function plus() {
-	lenta.style.left = lenta + 'px'
+	decrease = -100 - -(decrease)
+	lenta.style.left = decrease + 'px'
 }
