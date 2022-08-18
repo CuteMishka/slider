@@ -1,4 +1,4 @@
-var size = document.getElementById('lenta')
+var shift = document.getElementById('lenta')
 function plus() {
-	lenta.style.left = size + 'px'
+	shift.style.left = shift + 'px'
 }
